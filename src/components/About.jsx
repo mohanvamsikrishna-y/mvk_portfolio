@@ -23,8 +23,7 @@ const About = () => {
           {/* Image */}
           <div className="md:w-1/3 flex justify-center md:justify-end">
             <img
-              src="/mohan.png"
-              alt="Mohan Vamsi Krishna"
+              src="/assets/mohan.png" alt="Mohan Vamsi Krishna"
               className="w-48 h-48 md:w-60 md:h-60 rounded-full object-cover shadow-lg border-2 border-soft"
             />
           </div>
