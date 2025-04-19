@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "New York";
+  src: url("/fonts/NewYork.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans bg-beige text-textLight transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-primary text-textDark;
+}
+
+@layer base {
+  h1, h2, h3 {
+    @apply font-bold text-accent mb-4;
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  p {
+    @apply text-base text-textLight dark:text-textDark;
+  }
+
+  a {
+    @apply text-accent hover:underline transition-colors duration-200;
+  }
+}
+
+@layer utilities {
+  .shadow-glow {
+    box-shadow: 0 0 10px rgba(185, 148, 112, 0.4);
+  }
+}
+
+/* Add this to index.css */
+.name-title {
+  font-family: "New York", serif;
+  font-feature-settings: "liga" 0, "salt" 0, "ss01" 0, "ss02" 0;
+}
