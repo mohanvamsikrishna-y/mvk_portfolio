@@ -52,7 +52,7 @@ const Experience = () => {
       {/* KlassPM - Merged Experience */}
       <div>
         <h3 className="text-xl font-semibold text-textLight dark:text-textDark">
-          KlassPM Educational Consultancy – Data Analysis & IT Intern
+          KlassPM Educational Consultancy – Data Analysis & Software Developer Intern
         </h3>
         <p className="italic text-sm text-meta dark:text-metaDark">
           Jun 2021 – Aug 2021 | Hyderabad, India
